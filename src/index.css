@@ -13,6 +13,7 @@ body {
   box-sizing: border-box;
   transition: 0.2s;
   outline: none;
+  overflow: hidden;
 }
 
 html {
@@ -22,4 +23,5 @@ html {
 
 section {
   height: 100vh;
+  overflow: hidden;
 }

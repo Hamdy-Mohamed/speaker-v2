@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 1.5rem;
+  z-index: 999;
+}
+ul li {
+  list-style: none;
+  background: rgb(0, 255, 170);
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ul li :nth-child(n) {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  cursor: pointer;
+}
